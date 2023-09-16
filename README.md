@@ -45,10 +45,10 @@ node deploy-commands.js
 3. 執行機器人<br>
 如果你是使用PM2，可以使用下面指令執行
 ```bash
-pm2 start index.js --name reversi
+pm2 start main.js --name reversi
 ```
 如果你沒有使用PM2ㄋ，可以使用下面指令執行
 ```bash
-node index.js
+node main.js
 ```
 以上就是架設機器人的方法，如果有任何問題歡迎在issue提出
